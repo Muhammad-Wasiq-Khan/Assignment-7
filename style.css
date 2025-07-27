@@ -1,3 +1,66 @@
-h1 {
-    color: rgb(28, 122, 204);
+body {
+    margin: 0%;
+    padding: 0%;
+    background: linear-gradient(45deg, rgba(5, 5, 10, 1.000) 0.000%, rgba(30, 31, 34, 1.000) 50.000%, rgba(48, 49, 53, 1.000) 100.000%)
+}
+
+* {
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+nav {
+    margin-top: 30px;
+}
+
+a {
+    padding: 10px;
+    align-self: center;
+}
+
+.image {
+    width: 100%;
+    height: 500px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card1,
+.card2,
+.card3 {
+    width: 33%;
+}
+
+.card1>img {
+    width: 100%;
+    height: 450px;
+}
+
+.card2>img {
+    width: 100%;
+    height: 450px;
+}
+
+.card3>img {
+    width: 100%;
+    height: 450px;
+}
+
+.footer>p {
+    height: 50px;
+    font-size: larger;
+    background-color: rgba(30, 31, 34, 1.000);
+    margin: 0%;
+}
+
+p {
+    text-align: center;
 }
